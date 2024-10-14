@@ -1,5 +1,5 @@
 
-### Script sustituciones.py
+### Script [sustituciones.py](https://github.com/JCreiv/Python_exercises/blob/master/sustituciones.py)
 
 Este script tiene como objetivo **convertir un texto ingresado por el usuario en una versión modificada** usando una serie de sustituciones de caracteres 
 
@@ -27,7 +27,7 @@ Salida:
 4. **Resultado:** El resultado final es una cadena con las modificaciones aplicadas, que se imprime directamente en la consola.
 
 
-### Script caja.py
+### Script [caja.py](https://github.com/JCreiv/Python_exercises/blob/master/peticiones.py)
 
 
 ##### Características:
@@ -53,7 +53,7 @@ python caja.py <ancho> <alto> <tipo>
 - El ancho y alto se ajustan automáticamente si son iguales o difieren en 1 o 2. 
 - Si el tipo especificado no es válido, el script mostrará un mensaje de error. 
 
-### Script ping.py
+### Script [ping.py](https://github.com/JCreiv/Python_exercises/blob/master/ping.py)
 
 Este script permite **hacer pings a una dirección IP específica con un tamaño y número de peticiones configurables.**
 
@@ -92,7 +92,7 @@ Para ejecutar el script, utiliza el siguiente comando:
 python script.py <dominio o IP>
 ```
 
-### RequestsApi.py
+### [RequestsApi.py](https://github.com/JCreiv/Python_exercises/blob/master/RequestsApi.py)
 
 ##### Script de Petición a API de Usuarios
 
@@ -120,7 +120,7 @@ python script.py
 Este comando ejecutará el script y guardará los resultados en el archivo `resultados.txt`.
 
 
-### Keylogger.py
+### [Keylogger.py](https://github.com/JCreiv/Python_exercises/blob/master/Keylogger.py)
 
 Este proyecto es un keylogger simple desarrollado en Python que captura las pulsaciones del teclado y las envía a un servidor a través de una solicitud HTTP `GET`. Las teclas capturadas también se guardan en un archivo local.
 
