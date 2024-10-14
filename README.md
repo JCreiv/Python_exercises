@@ -1,5 +1,5 @@
 
-### Script [sustituciones.py](https://github.com/JCreiv/Python_exercises/blob/master/sustituciones.py)
+### [Sustituciones.py](https://github.com/JCreiv/Python_exercises/blob/master/Sustituciones.py)
 
 Este script tiene como objetivo **convertir un texto ingresado por el usuario en una versión modificada** usando una serie de sustituciones de caracteres 
 
@@ -27,7 +27,7 @@ Salida:
 4. **Resultado:** El resultado final es una cadena con las modificaciones aplicadas, que se imprime directamente en la consola.
 
 
-### Script [caja.py](https://github.com/JCreiv/Python_exercises/blob/master/peticiones.py)
+### [Caja.py](https://github.com/JCreiv/Python_exercises/blob/master/Caja.py)
 
 
 ##### Características:
@@ -53,7 +53,7 @@ python caja.py <ancho> <alto> <tipo>
 - El ancho y alto se ajustan automáticamente si son iguales o difieren en 1 o 2. 
 - Si el tipo especificado no es válido, el script mostrará un mensaje de error. 
 
-### Script [ping.py](https://github.com/JCreiv/Python_exercises/blob/master/ping.py)
+### [Ping.py](https://github.com/JCreiv/Python_exercises/blob/master/Ping.py)
 
 Este script permite **hacer pings a una dirección IP específica con un tamaño y número de peticiones configurables.**
 
@@ -78,7 +78,7 @@ Tamaño de peticiones: 100
 - Asegúrate de tener los permisos necesarios para ejecutar el comando `ping`.
 
 
-### peticiones.py
+### [Peticiones.py](https://github.com/JCreiv/Python_exercises/blob/master/Peticiones.py)
 
 ##### Script de Peticiones HTTP/HTTPS
 
