@@ -11,8 +11,8 @@ peticiones = input()
 print("Tamaño de peticiones: ", end="")
 tamaño = input()
 
-if tamaño > 1000:
-    tamaño = 1000
+if tamaño > "1000":
+    tamaño = "1000"
 
 
 
