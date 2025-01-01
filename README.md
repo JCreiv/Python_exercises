@@ -182,7 +182,7 @@ Este proyecto es un script simple en Python que genera números aleatorios simul
 
 ## Requisitos
 
-Este script no requiere dependencias externas, solo necesitas Python 3 instalado en tu sistema.
+Este script usa el módulo random que no requiere dependencias externas, solo necesitas Python 3 instalado en tu sistema.
 
 ---
 
@@ -224,28 +224,16 @@ El script realiza dos tareas principales:
 3. Introduce la cantidad de tiradas de lotería cuando se te solicite.
 4. El script mostrará los resultados en la consola.
 
-### Uso como Módulo
-
-1. Importa el script en otro archivo de Python:
-
-   ```python
-   import lottery
-
-   # Generar 5 tiradas de lotería
-   resultados = lottery.tiradas_loteria(5)
-   print("Resultados:", resultados)
-   ```
-
----
-
-## Ejemplo de Salida
-
 ### Ejecución Directa
 
 ```bash
 $ python lottery.py
-¿Cuántas tiradas de lotería deseas?: 3
-Resultados: [123456, 654321, 789012]
+¿Cuántas tiradas de lotería deseas realizar?: 3
+
+Resultados de las tiradas:
+Tirada 1: 645671
+Tirada 2: 417193
+Tirada 3: 118050
 ```
 
 ### Uso como Módulo
