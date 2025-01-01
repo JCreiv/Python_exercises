@@ -168,7 +168,10 @@ El keylogger realiza dos tareas principales:
 python keylogger.py
 ```
 
-
 ## Advertencias
 
 Este script es solo con fines educativos. El uso no autorizado de un keylogger puede ser ilegal en muchos países. Asegúrate de tener el consentimiento adecuado antes de usar este código en sistemas que no sean de tu propiedad.
+
+
+
+### [lottery.py](lottery.py)
