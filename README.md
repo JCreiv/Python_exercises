@@ -174,4 +174,99 @@ Este script es solo con fines educativos. El uso no autorizado de un keylogger p
 
 
 
-### [lottery.py](lottery.py)
+### [Lottery.py](lottery.py)
+
+Este proyecto es un script simple en Python que genera números aleatorios simulando tiradas de lotería. Es funcional tanto para ejecución directa desde la línea de comandos como para ser importado como módulo en otros proyectos.
+
+---
+
+## Requisitos
+
+Este script no requiere dependencias externas, solo necesitas Python 3 instalado en tu sistema.
+
+---
+
+## Estructura del Código
+
+El script realiza dos tareas principales:
+
+1. **Genera números aleatorios de 6 cifras** para simular tiradas de lotería.
+2. **Permite reutilizar las funciones del script** al ser importado como módulo.
+
+---
+
+### Componentes del Código
+
+1. **`generar_numero_loteria()`**: 
+   - Genera un número aleatorio de 6 cifras (entre 100000 y 999999).
+   - Salida: Un entero aleatorio.
+
+2. **`tiradas_loteria(cantidad)`**: 
+   - Genera una lista de números aleatorios de 6 cifras.
+   - Entrada: `cantidad` (int), el número de tiradas deseadas.
+   - Salida: Una lista de enteros aleatorios.
+
+3. **`if __name__ == "__main__":`**:
+   - Permite ejecutar el script directamente desde la línea de comandos.
+   - Solicita al usuario el número de tiradas y muestra los resultados en consola.
+
+---
+
+## Uso
+
+### Ejecución Directa
+
+1. Guarda el archivo como `lottery.py`.
+2. Ejecútalo desde la terminal:
+   ```bash
+   python lottery.py
+   ```
+3. Introduce la cantidad de tiradas de lotería cuando se te solicite.
+4. El script mostrará los resultados en la consola.
+
+### Uso como Módulo
+
+1. Importa el script en otro archivo de Python:
+
+   ```python
+   import lottery
+
+   # Generar 5 tiradas de lotería
+   resultados = lottery.tiradas_loteria(5)
+   print("Resultados:", resultados)
+   ```
+
+---
+
+## Ejemplo de Salida
+
+### Ejecución Directa
+
+```bash
+$ python lottery.py
+¿Cuántas tiradas de lotería deseas?: 3
+Resultados: [123456, 654321, 789012]
+```
+
+### Uso como Módulo
+
+```python
+import lottery
+
+resultados = lottery.tiradas_loteria(2)
+print(resultados)
+```
+
+Salida:
+```
+[234567, 876543]
+```
+
+---
+
+## Notas
+
+- El bloque `if __name__ == "__main__":` asegura que el código principal no interfiera cuando el script se importe como módulo.
+- Este script es ideal para aprender sobre el uso de funciones, listas y el manejo del módulo `random` en Python.
+
+
